@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./inconsolata.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyFont2';
+    src: url('./broadw.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.hello {
+    color: red;
+    font-family: 'MyFont';
+    font-size: 20px;
+    background: url(./abstract.jpg);
+}
